@@ -26,7 +26,6 @@ import java.util.List;
 
 @WebMvcTest(PaymentController.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(classes = {AppConfig.class})
 public class PaymentControllerTest {
 
     @Autowired
